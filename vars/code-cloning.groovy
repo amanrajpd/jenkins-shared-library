@@ -1,4 +1,4 @@
-def fun(String url , String branch)
+def call(String url , String branch)
 {
   echo "Code cloning from github"
   git url: "${url}" , branch:"${branch}"
